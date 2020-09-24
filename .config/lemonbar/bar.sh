@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #  ██
 # ░██
 # ░██       ██████   ██████
@@ -56,5 +56,5 @@ Workspaces() {
 }
 while true; do
         echo "%{c}%{B$background}%{F$color7}$SEP2$(Workspaces)$SEP2$(Volume)$SEP2$(Bright)$SEP2$(Date)$SEP2$(Clock)$SEP2%{F-}%{B-}"
-                sleep 0
+                sleep 0.1s
 done
