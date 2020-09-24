@@ -1,0 +1,21 @@
+configuration {
+        theme: "~/.cache/wal/colors-rofi-dark.rasi";
+        show-icons: false;
+        lines: 7;
+        columns: 1;
+        font: "SFMono Nerd Font 10";
+        bw: 0;
+        padding: 0;
+        eh: 1;
+        auto-select: false;
+        line-margin: 0;
+        separator-style: "solid";
+        hide-scrollbar: true;
+}
+
+window {
+        location: north west;
+        width: 58%;
+        x-offset: 20px;
+        y-offset: 15px;
+}
