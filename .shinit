@@ -1,0 +1,3 @@
+#!/bin/sh
+cat ~/.cache/wal/sequences
+export PS1="_ "
