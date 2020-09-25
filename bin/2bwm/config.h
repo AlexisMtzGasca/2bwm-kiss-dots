@@ -41,7 +41,7 @@ static const uint8_t borders[] = {6,7,25,1};
  * attribute of the window. You can test this using `xprop WM_NAME`
  */
 #define LOOK_INTO "WM_CLASS"
-static const char *ignore_names[] = {"bar", "xclock", "google-chrome", "no-title", "mpv", "Telegram"};
+static const char *ignore_names[] = {"bar", "xclock", "no-title", "mpv"};
 ///--Menus and Programs---///
 static const char *menucmd[]    = { "/home/alexis/.config/wm/dmenu.sh", NULL };
 static const char *terminal[]   = {     "st", NULL };
