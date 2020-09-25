@@ -1,3 +1,0 @@
-wal -i $1 -b "#050505"
-killall lemonbar
-~/.config/lemonbar/bar.sh | lemonbar -f "SFMono Nerd Font:normal:size=10" -g 608x40+960+15 -n "lemon" &
