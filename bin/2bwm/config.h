@@ -1,3 +1,5 @@
+///---Include Pywal for borders---///
+#include "/home/alexis/.cache/wal/2bwm-colors.h"
 ///---User configurable stuff---///
 #include <X11/XF86keysym.h>
 ///---User configurable stuff---///
@@ -22,7 +24,6 @@ static const uint8_t offsets[] = {0,0,0,0};
  *4)fixedunkilcol    5)outerbordercol
  *6)emptycol         */
 //static const char *colors[] = {"#35586c","#333333","#7a8c5c","#ff6666","#cc9933","#0d131a","#000000"};
-static const char *colors[] = {"#ffffff","#333333","#050505","#d7521a","#38d1b2","#050505","#050505","#050505"};
 /* if this is set to true the inner border and outer borders colors will be swapped */
 static const bool inverted_colors = false;
 ///---Cursor---///
